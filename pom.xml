@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus-release</id>
 	      <name>TechLink Academy Releases Nexus Repository</name>
-	      <url>http://localhost:7000/repository/release_mtnpro/</url>
+	      <url>http://nexus:8081/repository/release_mtnpro/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus-snapshot</id>
 	      <name>TechLink Academy Snapshot Nexus Repository </name>
-	      <url>http://localhost:7000/repository/snapshot_mtnpro/</url>
+	      <url>http://nexus:8081/repository/snapshot_mtnpro/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
