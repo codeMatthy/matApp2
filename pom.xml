@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>TechLink Academy Releases Nexus Repository</name>
-	      <url>http://3.15.153.198:8081/repository/linkpay-release/</url>
+	      <url>http://localhost:7000/repository/release_mtnpro/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>TechLink Academy Snapshot Nexus Repository </name>
-	      <url>http://3.15.153.198:8081/repository/linkpay-snapshot/</url>
+	      <url>http://localhost:7000/repository/snapshot_mtnpro/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
