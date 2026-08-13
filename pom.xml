@@ -85,13 +85,13 @@
 
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus-release</id>
 	      <name>TechLink Academy Releases Nexus Repository</name>
 	      <url>http://nexus:8081/repository/pipelinepro-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>nexus-snapshot</id>
 	      <name>TechLink Academy Snapshot Nexus Repository </name>
 	      <url>http://nexus:8081/repository/pipelinepro-snapshot/</url>
 	    </snapshotRepository>
