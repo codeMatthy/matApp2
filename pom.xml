@@ -85,15 +85,15 @@
 
 	<distributionManagement>
 	    <repository>
-	      <id>nexus-release</id>
+	      <id>nexus</id>
 	      <name>TechLink Academy Releases Nexus Repository</name>
-	      <url>http://localhost:7000/repository/pipelinepro-release/</url>
+	      <url>http://nexus:8081/repository/pipelinepro-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus-snapshot</id>
+	      <id>nexus</id>
 	      <name>TechLink Academy Snapshot Nexus Repository </name>
-	      <url>http://localhost:7000/repository/pipelinepro-snapshot/</url>
+	      <url>http://nexus:8081/repository/pipelinepro-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
